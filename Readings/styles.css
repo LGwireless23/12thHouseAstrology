@@ -1,0 +1,139 @@
+body {
+    font-family: Lora, sans-serif;
+}
+
+nav {
+    background-color: #fff;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 80px;
+    }
+
+    .navbar-toggler {
+        margin-right: 80px;
+    }
+}
+
+.I-offer {
+    padding: 10px 30px 30px 30px;
+    text-align: center;
+}
+
+.I-offer h1 {
+    margin: 10px 0 20px 0;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-image: url(../Images/Carousel.jpg);
+    background-size: cover;
+    padding: 40px 0 30px 0;
+}
+
+.reading {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 310px;
+    height: 300px;
+    padding: 10px 30px 30px 30px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+@media (min-width: 677px) and (max-width: 1027px) {
+    .reading1 {
+        margin: 0 200px 0 200px;
+    }
+}
+
+.flex-number {
+    background-color: #e8e8e8;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 18px 20px 20px 20px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.flex-type-of-report {
+    font-size: 1.6rem;
+    margin-top: 45px;
+}
+
+.flex-text {
+    margin-bottom: 30px;
+}
+
+.zoom-reading {
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+.zoom-reading h2 {
+    margin: 20px 30px 20px 30px;
+
+}
+
+.zoom-reading p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media (min-width: 992px) {
+    .zoom-reading p {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .zoom-reading p {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+.zoom-reading a {
+    margin: 20px 0 0 0;
+}
+
+footer {
+    /* background-color: #e8e8e8; */
+}
+
+footer .facebook, .instagram, .email {
+    margin: 60px 15px 15px 20px;
+}
+
+svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #000;
+}
+
+#copyright {
+    width: .9rem;
+    height: .9rem;
+    vertical-align: text-bottom;
+    color: #a0a0a0
+}
+
+.copyright {
+    font-size: .7rem;
+    margin-top: 10;
+    margin-bottom: 20px;
+    color: #a0a0a0
+}

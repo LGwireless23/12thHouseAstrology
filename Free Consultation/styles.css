@@ -1,0 +1,153 @@
+body {
+    font-family: Lora, sans-serif;
+}
+
+nav {
+    background-color: #fff;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 80px;
+    }
+
+    .navbar-toggler {
+        margin-right: 80px;
+    }
+}
+
+.free-consultation {
+    margin: 20px 0 0 0;
+}
+
+.free-consultation h1 {
+    font-size: 2rem;
+    margin: 10px 30px 15px 30px;
+}
+
+.free-consultation p {
+    font-size: 1rem;
+    margin: 20px 30px 20px 30px;
+    width: 80vw;
+}
+
+@media (min-width: 768px) {
+    .free-consultation p {
+        width: 60vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .free-consultation p {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .free-consultation p {
+        width: 38vw;
+    }
+}
+
+.free-consultation a {
+    margin: 10px 30px 30px 30px;
+}
+
+.free-consultation-text p {
+    font-size: 1rem;
+    margin: 0 30px 15px 30px;
+}
+
+.free-consultation-text {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 844px) {
+    .free-consultation h1 {
+        margin-left: 84px;
+    }
+
+    .free-consultation p {
+        margin-right: 84px;
+        margin-left: 84px;
+    }
+
+    .free-consultation a {
+        margin-left: 84px;
+    }
+
+    .free-consultation-text p {
+        margin-right: 84px;
+        margin-left: 84px;
+    }
+}
+
+.lets-talk {
+    background-image: url(../Images/BackgroundCrop.jpg);
+    background-size: cover;
+    padding: 15px 0 0 0px;
+    color: #fff;
+}
+
+.lets-talk {
+    padding: 15px 0 0 0;
+}
+
+.lets-talk h2 {
+    font-size: 2rem;
+    margin: 15px 30px 15px 38px;
+}
+
+.lets-talk p {
+    font-size: 1rem;
+    margin-left: 38px;
+    margin-right: 30px;
+}
+
+.lets-talk a {
+    margin: 15px 30px 30px 38px;
+}
+
+@media (min-width: 844px) {
+    .lets-talk h2 {
+        margin-left: 92px;
+        margin-right: 92px;
+    }
+
+    .lets-talk p {
+        margin-left: 92px;
+        margin-right: 92px;
+    }
+
+    .lets-talk a {
+        margin-left: 92px;
+    }
+}
+
+footer {
+    /* background-color: #e8e8e8; */
+}
+
+footer .facebook, .instagram, .email {
+    margin: 60px 15px 15px 20px;
+}
+
+svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #000;
+}
+
+#copyright {
+    width: .9rem;
+    height: .9rem;
+    vertical-align: text-bottom;
+    color: #a0a0a0
+}
+
+.copyright {
+    font-size: .7rem;
+    margin-top: 10;
+    margin-bottom: 20px;
+    color: #a0a0a0
+}

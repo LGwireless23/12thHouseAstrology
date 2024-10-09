@@ -1,0 +1,117 @@
+body {
+    font-family: Lora, sans-serif;
+}
+
+nav {
+    background-color: #fff;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 80px;
+    }
+
+    .navbar-toggler {
+        margin-right: 80px;
+    }
+}
+
+.understanding-the-12th {
+    margin: 20px 0 40px 0;
+}
+
+.understanding-the-12th h1 {
+    margin: 0 0 10px 30px;
+}
+
+.understanding-the-12th .date {
+    font-size: .9rem;
+}
+
+.understanding-the-12th p {
+    margin: 0 30px 20px 30px;
+}
+
+.understanding-the-12th h2 {
+    margin: 20px 30px 20px 30px;
+}
+
+@media (min-width: 844px) {
+    .understanding-the-12th h1 {
+        margin-left: 87px;
+    }
+
+    .understanding-the-12th p {
+        margin-right: 87px;
+        margin-left: 87px;
+    }
+
+    .understanding-the-12th h2 {
+        margin-left: 87px;
+    }
+}
+
+.good-fit {
+    margin: 0 0 20px 0;
+    background-image: url(../../Images/BackgroundCrop.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 30px 0 40px 0;
+    text-align: center;
+}
+
+.good-fit h3 {
+    margin: 0 30px 30px 30px;
+    font-size: 2rem;
+}
+
+.good-fit p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.good-fit a {
+    margin: 15px 0 0 0;
+}
+
+@media (min-width: 992px) {
+    .good-fit p {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .good-fit p {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+footer {
+    /* background-color: #e8e8e8; */
+}
+
+footer .facebook, .instagram, .email {
+    margin: 60px 15px 15px 20px;
+}
+
+svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #000;
+}
+
+#copyright {
+    width: .9rem;
+    height: .9rem;
+    vertical-align: text-bottom;
+    color: #a0a0a0
+}
+
+.copyright {
+    font-size: .7rem;
+    margin-top: 10;
+    margin-bottom: 20px;
+    color: #a0a0a0
+}
