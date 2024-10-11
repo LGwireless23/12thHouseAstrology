@@ -91,26 +91,42 @@
         </div>
     </nav>
 
-    <section class="free-consultation container-fluid">
-        <h1>Get a FREE 15 Minute Consultation</h1>
-        <p>Not sure where to begin? Let's get to know each other and discuss how I can help you.</p>
-        <a href="Request Your Free Consultation/request-your-free-consultation.html"
-            class="btn btn-outline-primary">Book Now</a>
-    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <section class="free-consultation col-lg-5">
+                <h1>Get a FREE 15 Minute Consultation</h1>
+                <p>Not sure where to begin? Let's get to know each other and discuss how I can help you.</p>
+                <script async src="https://js.stripe.com/v3/buy-button.js">
+                </script>
 
-    <section class="free-consultation-text container-fluid">
-        <p>Are you curious about 12th House Astrology but feel like you need more information? I offer a free 15 minute
-            consultation to answer any questions you may have and to discuss what you're looking for from an astrology
-            reading.</p>
-        <p><em>Would you like to know how the twelfth house affects you personally?</em> I would love to briefly
-            discuss what is going on in your twelfth house and how I can help you understand this unique corner of your
-            chart.</p>
-        <p><em>Is there a particular area in your life, such as your career of relationships, you'd like to
-                address?</em>
-            Would you like to shed some light on self-destructive patterns you feel destined to repeat? Or perhaps learn
-            what themes may play out in your life this year? This consultation helps me get to know you, and it helps me
-            to find the best kind of reading for you.</p>
-    </section>
+                <stripe-buy-button class="book-button" buy-button-id="buy_btn_1Q8YWV03bTlzVE5rp0Gip285"
+                    publishable-key="pk_live_51Q7k5A03bTlzVE5rmKDTluv0EZ58cMMXYz1j1gINYhvuiN74wZbXGI99ZSKYq0doaISIZoOgJsqbVmHzLXmQ6KFw00TT4h4ztv">
+                </stripe-buy-button>
+            </section>
+
+
+            <section class="free-consultation-text col-lg-7">
+                <p>Are you curious about 12th House Astrology but feel like you need more information? I offer a free 15
+                    minute
+                    consultation to answer any questions you may have and to discuss what you're looking for from an
+                    astrology
+                    reading.</p>
+                <p><em>Would you like to know how the twelfth house affects you personally?</em> I would love to briefly
+                    discuss what is going on in your twelfth house and how I can help you understand this unique corner
+                    of
+                    your
+                    chart.</p>
+                <p><em>Is there a particular area in your life, such as your career of relationships, you'd like to
+                        address?</em>
+                    Would you like to shed some light on self-destructive patterns you feel destined to repeat? Or
+                    perhaps
+                    learn
+                    what themes may play out in your life this year? This consultation helps me get to know you, and it
+                    helps me
+                    to find the best kind of reading for you.</p>
+            </section>
+        </div>
+    </div>
 
     <section class="lets-talk container-fluid">
         <h2>Let's Talk About What You're Looking For.</h2>
@@ -118,7 +134,7 @@
             sure what you're
             looking for at all?
         </p>
-        <p>Let's talk about what you want from a reading so I can help you better.</p>
+        <p class="bottom-p">Let's talk about what you want from a reading so I can help you better.</p>
         <a href="mailto:twelfthhouseastrologer@gmail.com" class="btn btn-outline-light">Contact Me</a>
     </section>
 

@@ -28,28 +28,9 @@ nav {
 .free-consultation p {
     font-size: 1rem;
     margin: 20px 30px 20px 30px;
-    width: 80vw;
 }
 
-@media (min-width: 768px) {
-    .free-consultation p {
-        width: 60vw;
-    }
-}
-
-@media (min-width: 992px) {
-    .free-consultation p {
-        width: 50vw;
-    }
-}
-
-@media (min-width: 1200px) {
-    .free-consultation p {
-        width: 38vw;
-    }
-}
-
-.free-consultation a {
+.free-consultation .book-button {
     margin: 10px 30px 30px 30px;
 }
 
@@ -60,6 +41,7 @@ nav {
 
 .free-consultation-text {
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 @media (min-width: 844px) {
@@ -72,7 +54,7 @@ nav {
         margin-left: 84px;
     }
 
-    .free-consultation a {
+    .free-consultation .book-button {
         margin-left: 84px;
     }
 
@@ -81,6 +63,8 @@ nav {
         margin-left: 84px;
     }
 }
+
+@media (min-width: 992px) {}
 
 .lets-talk {
     background-image: url(../Images/BackgroundCrop.jpg);
@@ -121,6 +105,36 @@ nav {
 
     .lets-talk a {
         margin-left: 92px;
+    }
+}
+
+@media (min-width: 844px) {
+    .top-p {
+        width: 75vw;
+    }
+}
+
+@media (min-width: 1100px) {
+    .top-p {
+        width: 65vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .top-p {
+        width: 55vw;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 843px) {
+    .free-consultation p {
+        width: 70vw;
+    }
+}
+
+@media (min-width: 844px) and (max-width: 992px) {
+    .free-consultation p {
+        width: 60vw;
     }
 }
 
