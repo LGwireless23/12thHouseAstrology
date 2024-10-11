@@ -98,13 +98,24 @@
     <section class="container-fluid">
         <div class="row">
             <div class="birth-chart-report col-lg-5">
-                <h1>Predictive Report</h1>
-                <p>Each report is unique, hand-written, and is anywhere between 7-10 pages in length. Your birth chart
+                <h1>Predictive Report - $74.95</h1>
+                <p class="report-description">Each report is unique, hand-written, and is anywhere between 7-10 pages in
+                    length. Your predictive
                     report
-                    will be sent to you as a digital file approximately 7-14 days after it is purchased.</p>
-                <a href="../Purchase/purchase.html" class="btn btn-outline-primary">Buy It Now</a>
-                <p>Download an example chart to see what you can<br>expect from your reading.</p>
-                <a href="../Purchase/purchase.html" class="btn btn-outline-primary">Download</a>
+                    will be sent to you as a digital file approximately 7-14 days after it is purchased. All purchases
+                    are
+                    processed through Stripe, a secure third-party payment processing platform.</p>
+                <div class="button-container">
+                    <script async src="https://js.stripe.com/v3/buy-button.js">
+                    </script>
+
+                    <stripe-buy-button class="buy-button" buy-button-id="buy_btn_1Q8TFd03bTlzVE5rzSCGf1k2"
+                        publishable-key="pk_live_51Q7k5A03bTlzVE5rmKDTluv0EZ58cMMXYz1j1gINYhvuiN74wZbXGI99ZSKYq0doaISIZoOgJsqbVmHzLXmQ6KFw00TT4h4ztv">
+                    </stripe-buy-button>
+                </div>
+                <p>Download an example chart to see what you can expect from your reading.</p>
+                <div class="button-container"><a href="Sample Predictive Report.pdf" target="_blank"
+                        class="btn btn-outline-primary">Download</a></div>
             </div>
             <div class="birth-chart-details  col-lg-7">
                 <h2><strong>1&rpar; Transits</strong></h2>

@@ -98,15 +98,26 @@
     <section class="container-fluid">
         <div class="row">
             <div class="birth-chart-report col-lg-5">
-                <h1>Birth Chart Report</h1>
-                <p>Each report is unique, hand-written, and is anywhere between 6-9 pages in length. Your birth chart
+                <h1>Birth Chart Report - $74.95</h1>
+                <p class="report-description">Each report is unique, hand-written, and is anywhere between 6-9 pages in
+                    length. Your birth chart
                     report
-                    will be sent to you as a digital file approximately 7-14 days after it is purchased.</p>
-                <a href="../Purchase/purchase.html" class="btn btn-outline-primary">Buy It Now</a>
-                <p>Download an example chart to see what you can<br>expect from your reading.</p>
-                <a href="#" class="btn btn-outline-primary">Download</a>
+                    will be sent to you as a digital file approximately 7-14 days after it is purchased. All purchases
+                    are
+                    processed through Stripe, a secure third-party payment processing platform.</p>
+                <div class="button-container">
+                    <script async src="https://js.stripe.com/v3/buy-button.js">
+                    </script>
+
+                    <stripe-buy-button class="buy-button" buy-button-id="buy_btn_1Q8GBM03bTlzVE5r0LyHgTbw"
+                        publishable-key="pk_live_51Q7k5A03bTlzVE5rmKDTluv0EZ58cMMXYz1j1gINYhvuiN74wZbXGI99ZSKYq0doaISIZoOgJsqbVmHzLXmQ6KFw00TT4h4ztv">
+                    </stripe-buy-button>
+                </div>
+                <p class="example-chart">Download an example chart to see what you can expect from your reading.</p>
+                <div class="button-container"><a href="Sample Chart.pdf" target="_blank"
+                        class="btn btn-outline-primary">Download</a></div>
             </div>
-            <div class="birth-chart-details  col-lg-7">
+            <div class="birth-chart-details col-lg-7">
                 <h2><strong>1&rpar; Psychological Traits</strong></h2>
                 <p>Your reading will include a detailed analysis of your psychological traits and tendencies. This part
                     of the

@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../../index.html">About</a>
+                        <a class="nav-link" aria-current="page" href="../../index.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -97,23 +97,21 @@
 
     <section class="container-fluid">
         <div class="row">
-            <div class="birth-chart-report col-lg-5">
-                <h1>Zoom Reading</h1>
-                <p>You can use the time to discuss your birth chart, get a relationship reading, or a predictive
-                    reading.
-                    We can also address a specific question during your reading if you prefer to focus on one topic.</p>
-                <a href="../Purchase/purchase.html" class="btn btn-outline-primary">Buy It Now</a>
+            <div class="birth-chart-report col-lg-7">
+                <h1>Purchase Your Birth Chart Report</h1>
+                <script async src="https://js.stripe.com/v3/buy-button.js">
+                </script>
+
+                <stripe-buy-button buy-button-id="buy_btn_1Q8GBM03bTlzVE5r0LyHgTbw"
+                    publishable-key="pk_live_51Q7k5A03bTlzVE5rmKDTluv0EZ58cMMXYz1j1gINYhvuiN74wZbXGI99ZSKYq0doaISIZoOgJsqbVmHzLXmQ6KFw00TT4h4ztv">
+                </stripe-buy-button>
             </div>
-            <div class="birth-chart-details col-lg-7">
-                <h2><strong>1&rpar; 30 Minute Reading</strong></h2>
-                <p>These 30 minutes are for you. Ask any questions you may have and/or get a brief reading. This is a
-                    great option if you would like to get a general sense of your birth chart or ask about a specific
-                    topic such as your inherent strengths and weaknesses, relationship patterns, or ideal career.</p>
-                <h2><strong>2&rpar; 60 Minute Reading</strong></h2>
-                <p>This is a great option if you have a lot of questions or wish to discuss certain topics in depth. If
-                    we meet online, we can cover a lot more ground with your chart as I get to know you better. Feel
-                    free to ask questions about particular themes (such as career, relationships, living situation,
-                    etc.) or to inquire about specific areas of your chart.</p>
+            <div class="birth-chart-details col-lg-5">
+                <h2>1&rpar; Birth Chart Report - $74.95</h2>
+                <h2>2&rpar; Relationship Report - $74.95</h2>
+                <h2>3&rpar; Predictive Report - $74.95</h2>
+                <h2>4&rpar; 30 Minute Reading - $30</h2>
+                <h2>5&rpar; 60 Minute Reading - $50</h2>
             </div>
         </div>
     </section>
@@ -121,7 +119,7 @@
     <section class="free-consultation container-fluid">
         <h3>Get a FREE 15 Minute Consultation</h3>
         <p>Not sure if this is the reading for you? Let's get to know each other and discuss how I can help you.</p>
-        <a href="../../Free Consultation/FreeConsultation.html" class="btn btn-outline-light">Learn More</a>
+        <a href="../Free Consultation/free-consultation.html" class="btn btn-outline-light">Learn More</a>
     </section>
 
     <footer>
