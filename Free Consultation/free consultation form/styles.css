@@ -1,0 +1,49 @@
+body {
+    font-family: Lora, sans-serif;
+}
+
+nav {
+    background-color: #fff;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 80px;
+    }
+
+    .navbar-toggler {
+        margin-right: 80px;
+    }
+}
+
+iframe {
+    margin-top: 60px;
+}
+
+footer {
+    /* background-color: #e8e8e8; */
+}
+
+footer .facebook, .instagram, .email {
+    margin: 60px 15px 15px 20px;
+}
+
+svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #000;
+}
+
+#copyright {
+    width: .9rem;
+    height: .9rem;
+    vertical-align: text-bottom;
+    color: #a0a0a0
+}
+
+.copyright {
+    font-size: .7rem;
+    margin-top: 10;
+    margin-bottom: 20px;
+    color: #a0a0a0
+}

@@ -68,6 +68,18 @@ nav {
     font-weight: bold;
 }
 
+.number-1 {
+    background-color: #ccd5ae;
+}
+
+.number-2 {
+    background-color: #e9edc9;
+}
+
+.number-3 {
+    background-color: #fefae0;
+}
+
 .flex-type-of-report {
     font-size: 1.6rem;
     margin-top: 45px;
