@@ -16,107 +16,67 @@ nav {
     }
 }
 
-h1 {
-    margin-left: 15px;
-}
-
-.article-container a {
-    text-decoration: none;
-    color: #000;
-}
-
-.article-container img {
+.header img {
     width: 100%;
     height: auto;
-    margin: 10px 0 10px 0;
 }
 
-.article-container h2 {
-    margin: 10px 10px 0 10px;
-    text-decoration: none;
-    font-size: 1.5rem;
+.sun-in-the-12th {
+    padding: 30px 0 20px 0;
 }
 
-.article-container .date {
-    margin-left: 10px;
-    margin-top: 5px;
+.sun-in-the-12th .title-img {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    margin: 5px 20px 5px 30px;
 }
 
-.article-container .description {
-    margin: 10px;
-    margin-bottom: 40px;
+.sun-in-the-12th h1 {
+    margin: 0 0 10px 30px;
 }
 
-@media (min-width: 576px) {
-    h1 {
-        margin-left: 45px;
-        font-size: 1.8rem;
-    }
+.sun-in-the-12th .date {
+    font-size: .9rem;
+    margin-left: 30px;
+}
 
-    .article-container {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-    }
+.sun-in-the-12th p {
+    margin-right: 30px;
+    margin-left: 30px;
+}
 
-    .article-container img {
-        width: 11rem;
-        height: auto;
-        margin: 10px 10px 10px 30px;
-    }
+.sun-in-the-12th h2 {
+    margin: 30px 0 20px 30px;
+}
 
-    .article-1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .article-2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .article-container h2 {
-        margin-top: 15px;
-    }
+.sun-in-the-12th img {
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width: 844px) {
-    h1 {
+    .sun-in-the-12th .title-img {
         margin-left: 100px;
     }
 
-    .article-1 {
-        margin-left: 58px;
-        margin-right: 58px;
+    .sun-in-the-12th p {
+        margin-right: 100px;
+        margin-left: 100px;
     }
 
-    .article-2 {
-        margin-left: 58px;
-        margin-right: 58px;
-    }
-}
-
-@media (min-width: 1052px) {
-    .article-1 {
-        margin-right: 20%;
-    }
-
-    .article-2 {
-        margin-right: 20%;
+    .sun-in-the-12th h2 {
+        margin-left: 100px;
     }
 }
 
-@media (min-width: 1220px) {
-    .article-1 {
-        margin-right: 30%;
-    }
-
-    .article-2 {
-        margin-right: 30%;
+@media (min-width: 768px) {
+    .sun-in-the-12th img {
+        width: 500px;
+        margin-left: 100px;
+        margin-top: 10px;
     }
 }
-
-
 
 .free-consultation {
     background-image: url(../../Images/BackgroundCrop.jpg);
