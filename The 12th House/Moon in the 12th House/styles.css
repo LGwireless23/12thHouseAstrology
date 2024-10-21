@@ -16,6 +16,26 @@ nav {
     }
 }
 
+@media (min-width: 1100px) {
+    .navbar-brand {
+        margin-left: 180px;
+    }
+
+    .navbar-toggler {
+        margin-right: 180px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navbar-brand {
+        margin-left: 280px;
+    }
+
+    .navbar-toggler {
+        margin-right: 280px;
+    }
+}
+
 .header {
     background-image: url(../../Images/BackgroundCrop.jpg);
     background-size: cover;
@@ -41,7 +61,7 @@ nav {
 }
 
 .moon-in-the-12th h1 {
-    margin: 0 0 10px 30px;
+    margin: 0 30px 10px 30px;
 }
 
 .moon-in-the-12th .date {
@@ -99,6 +119,56 @@ nav {
 
     .moon-in-the-12th img {
         margin-left: 100px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .moon-in-the-12th .title-img {
+        margin-left: 200px;
+    }
+
+    .moon-in-the-12th p {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .moon-in-the-12th h2 {
+        margin-left: 200px;
+    }
+
+    .moon-in-the-12th h3 {
+        margin-left: 200px;
+    }
+
+    .moon-in-the-12th img {
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .moon-in-the-12th .title-img {
+        margin-left: 300px;
+    }
+
+    .moon-in-the-12th h1 {
+        margin-right: 300px;
+    }
+
+    .moon-in-the-12th p {
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+
+    .moon-in-the-12th h2 {
+        margin-left: 300px;
+    }
+
+    .moon-in-the-12th h3 {
+        margin-left: 300px;
+    }
+
+    .moon-in-the-12th img {
+        margin-left: 300px;
     }
 }
 

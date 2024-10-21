@@ -16,6 +16,26 @@ nav {
     }
 }
 
+@media (min-width: 1100px) {
+    .navbar-brand {
+        margin-left: 180px;
+    }
+
+    .navbar-toggler {
+        margin-right: 180px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navbar-brand {
+        margin-left: 280px;
+    }
+
+    .navbar-toggler {
+        margin-right: 280px;
+    }
+}
+
 .header img {
     width: 100%;
     height: auto;
@@ -75,6 +95,56 @@ nav {
         width: 500px;
         margin-left: 100px;
         margin-top: 10px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .sun-in-the-12th .title-img {
+        margin-left: 200px;
+    }
+
+    .sun-in-the-12th p {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .sun-in-the-12th h2 {
+        margin-left: 200px;
+    }
+
+    .sun-in-the-12th h3 {
+        margin-left: 200px;
+    }
+
+    .sun-in-the-12th img {
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .sun-in-the-12th .title-img {
+        margin-left: 300px;
+    }
+
+    .sun-in-the-12th h1 {
+        margin-right: 300px;
+    }
+
+    .sun-in-the-12th p {
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+
+    .sun-in-the-12th h2 {
+        margin-left: 300px;
+    }
+
+    .sun-in-the-12th h3 {
+        margin-left: 300px;
+    }
+
+    .sun-in-the-12th img {
+        margin-left: 300px;
     }
 }
 

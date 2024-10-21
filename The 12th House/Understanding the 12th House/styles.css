@@ -16,6 +16,26 @@ nav {
     }
 }
 
+@media (min-width: 1100px) {
+    .navbar-brand {
+        margin-left: 195px;
+    }
+
+    .navbar-toggler {
+        margin-right: 195px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navbar-brand {
+        margin-left: 295px;
+    }
+
+    .navbar-toggler {
+        margin-right: 295px;
+    }
+}
+
 .understanding-the-12th {
     margin: 20px 0 40px 0;
 }
@@ -48,6 +68,54 @@ nav {
 
     .understanding-the-12th h2 {
         margin-left: 87px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .understanding-the-12th h1 {
+        margin-left: 200px;
+    }
+
+    .understanding-the-12th p {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .understanding-the-12th h2 {
+        margin-left: 200px;
+    }
+
+    .understanding-the-12th h3 {
+        margin-left: 200px;
+    }
+
+    .understanding-the-12th img {
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .understanding-the-12th h1 {
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+
+    .understanding-the-12th p {
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+
+    .understanding-the-12th h2 {
+        margin-left: 300px;
+    }
+
+    .understanding-the-12th h3 {
+        margin-left: 300px;
+    }
+
+    .understanding-the-12th img {
+        margin-left: 300px;
     }
 }
 
