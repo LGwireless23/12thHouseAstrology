@@ -67,7 +67,7 @@ nav {
 @media (min-width: 992px) {}
 
 .lets-talk {
-    background-image: url(../Images/BackgroundCrop.jpg);
+    background-image: url(../images/BackgroundCrop.jpg);
     background-size: cover;
     padding: 15px 0 0 0px;
     color: #fff;
