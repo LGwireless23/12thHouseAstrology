@@ -75,11 +75,11 @@ nav {
 }
 
 .moon-in-the-12th h2 {
-    margin: 30px 0 20px 30px;
+    margin: 30px 30px 20px 30px;
 }
 
 .moon-in-the-12th h3 {
-    margin: 30px 0 15px 30px;
+    margin: 30px 30px 15px 30px;
 }
 
 .moon-in-the-12th img {
@@ -89,6 +89,11 @@ nav {
 
 .text-img {
     margin: 10px 0 20px 0;
+}
+
+.sources {
+    margin: 30px 30px 20px 30px;
+    word-wrap: break-word;
 }
 
 @media (min-width: 768px) {
