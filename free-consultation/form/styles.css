@@ -16,9 +16,100 @@ nav {
     }
 }
 
-iframe {
-    margin-top: 60px;
+.form-container {
+    padding-top: 50px;
 }
+
+/* General form styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="time"],
+form input[type="location"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="date"]:focus,
+form input[type="time"]:focus,
+form input[type="location"]:focus,
+form textarea:focus {
+    border-color: #6c5ce7;
+    /* Change focus border color */
+    outline: none;
+}
+
+/* Textarea specific styling */
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Button styling */
+form button {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5a4ac8;
+    /* Darken the button color on hover */
+}
+
+/* Add spacing between the form elements */
+form label,
+form input,
+form textarea,
+form button {
+    margin-bottom: 15px;
+}
+
+/* Optional: Add a message to indicate a successful submission */
+form.success {
+    border: 1px solid #28a745;
+    background-color: #d4edda;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #155724;
+}
+
 
 footer {
     /* background-color: #e8e8e8; */
